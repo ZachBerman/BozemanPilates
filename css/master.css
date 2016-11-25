@@ -143,6 +143,51 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   background-color: white;
 }
+.btn-services {
+  color: white;
+  background-color: #E14115;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+  transition: all 0.3s linear;
+}
+.btn-services:hover,
+.btn-services:focus,
+.btn-services:active,
+.btn-services.active,
+.open .dropdown-toggle.btn-xl {
+  color: #fff;
+  background-color: #FC6A42;
+}
+.btn-services:active,
+.btn-services.active,
+.open .dropdown-toggle.btn-services {
+  background-image: none;
+}
+.btn-services.disabled,
+.btn-services[disabled],
+fieldset[disabled] .btn-xl,
+.btn-services.disabled:hover,
+.btn-services[disabled]:hover,
+fieldset[disabled] .btn-services:hover,
+.btn-services.disabled:focus,
+.btn-services[disabled]:focus,
+fieldset[disabled] .btn-services:focus,
+.btn-services.disabled:active,
+.btn-services[disabled]:active,
+fieldset[disabled] .btn-services:active,
+.btn-services.disabled.active,
+.btn-services[disabled].active,
+fieldset[disabled] .btn-services.active {
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.btn-services .badge {
+  color: #fed136;
+  background-color: white;
+}
 .navbar-custom {
   background-color: #E14115;
   border-color: transparent;
@@ -292,7 +337,7 @@ section h3.section-subheading {
   }
 }
 #services {
-  margin-top: -75px;
+  margin-top: 25px;
 }
 .service-heading {
   margin: 15px 0;
@@ -399,4 +444,7 @@ body {
 }
 .sample-heading {
   color: black;
+}
+.btn-services {
+  background-color: red;
 }

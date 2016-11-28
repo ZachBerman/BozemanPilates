@@ -345,10 +345,13 @@ section h3.section-subheading {
 }
 #instagram {
   background-color: #0099CC;
+  padding: 50px 0;
+  margin:0;
 }
 .insta-header {
   color: #fff;
-  margin-top: -80px;
+  /* margin-top: -80px; */
+  margin:0 0 10px 0;
 }
 @media (max-width: 768px) {
   .insta-header {
@@ -446,5 +449,5 @@ body {
   color: black;
 }
 .btn-services {
-  background-color: red;
+  background-color: #E14115;
 }

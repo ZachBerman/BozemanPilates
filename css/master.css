@@ -417,7 +417,7 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 
-/*Flexbox Footer (incase page content in minimal, keeps footer)*/
+/*Flexbox Footer (in-case page content is minimal, keeps footer pinned to bottom)*/
 .site {
   display: flex;
   min-height: 100vh;

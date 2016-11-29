@@ -240,34 +240,6 @@ fieldset[disabled] .btn-services.active {
   color: white;
   background-color: #E14115;
 }
-@media (min-width: 768px) {
-  .navbar-custom {
-    background-color: transparent;
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-    border: none;
-  }
-  .navbar-custom .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .navbar-custom .navbar-nav > .active > a {
-    border-radius: 3px;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-custom.affix {
-    background-color: #E14115;
-    padding: 10px 0;
-  }
-  .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
-  }
-}
 header {
   background-image: url('../img/hero.jpg');
   background-repeat: no-repeat;
@@ -297,25 +269,6 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
-@media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
-  }
-  header .intro-text .intro-lead-in {
-    font-style: italic;
-    font-size: 40px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
-}
 section {
   padding: 75px 0;
 }
@@ -330,11 +283,6 @@ section h3.section-subheading {
   font-style: italic;
   font-weight: 400;
   margin-bottom: 75px;
-}
-@media (min-width: 768px) {
-  section {
-    padding: 100px 0;
-  }
 }
 #services {
   margin-top: 25px;
@@ -352,12 +300,6 @@ section h3.section-subheading {
   color: #fff;
   /* margin-top: -80px; */
   margin:0 0 10px 0;
-}
-@media (max-width: 768px) {
-  .insta-header {
-    padding-top: 10px;
-    font-size: 16px;
-  }
 }
 footer {
   padding: 25px 0;
@@ -420,7 +362,7 @@ body {
   webkit-tap-highlight-color: #fed136;
 }
 
-/*Flexbox Footer (in-case page content is minimal, keeps footer pinned to bottom)*/
+/*Flexbox Footer (Keeps footer pinned to bottom of page)*/
 .site {
   display: flex;
   min-height: 100vh;
@@ -450,4 +392,61 @@ body {
 }
 .btn-services {
   background-color: #E14115;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+  .insta-header {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  .service-block {
+    margin-top: 75px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+  .navbar-custom.affix {
+    background-color: #E14115;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+  header .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  header .intro-text .intro-lead-in {
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+  header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+  }
+  section {
+    padding: 100px 0;
+  }
 }

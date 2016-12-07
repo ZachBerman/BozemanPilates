@@ -1,7 +1,7 @@
-(function($) {
-    "use strict"; // Start of use strict
+var $ = jQuery.noConflict();
 
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
+$(document).ready(function(){
+// jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -27,5 +27,7 @@
             top: 100
         }
     })
+});
 
-})(jQuery); // End of use strict
+    
+

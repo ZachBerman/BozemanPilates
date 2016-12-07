@@ -10,6 +10,9 @@ function load_script_css() {
   wp_register_script('fontAwesomeCss', 'https://use.fontawesome.com/3bbbe7ee7f.js' );
   wp_enqueue_script( 'fontAwesomeCss');
 
+  wp_register_script('jquery', 'https://code.jquery.com/jquery-3.1.1.min.js' ); 
+  wp_enqueue_script( 'jquery');
+
   wp_register_script('bootstrapJs', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js',false, '3.3.4', true);
   wp_enqueue_script( 'bootstrapJs');
 

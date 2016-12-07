@@ -46,7 +46,7 @@
               <a href="#page-top"></a>
             </li>
             <li>
-              <a href="page1.html">Page1</a>
+              <a href="#">Page1</a>
             </li>
             <li>
               <a href="#">Page2</a>

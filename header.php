@@ -36,31 +36,21 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand page-scroll" href="#page-top">Logo Here</a>
+          <a class="navbar-brand" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
         </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="hidden">
-              <a href="#page-top"></a>
-            </li>
-            <li>
-              <a href="#">Page1</a>
-            </li>
-            <li>
-              <a href="#">Page2</a>
-            </li>
-            <li>
-              <a href="#">Page3</a>
-            </li>
-            <li>
-              <a href="#">Page4</a>
-            </li>
-            <li>
-              <a href="#">Page5</a>
-            </li>
-          </ul>
+          <?php /* Primary navigation */
+            wp_nav_menu( array(
+              'menu' => 'top_menu',
+              'depth' => 2,
+              'container' => false,
+              'menu_class' => 'nav navbar-nav navbar-right',
+              //Process nav menu using our custom nav walker
+              'walker' => new wp_bootstrap_navwalker())
+            );
+          ?>
         </div>
       </div>
 

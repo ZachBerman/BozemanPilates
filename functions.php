@@ -1,4 +1,8 @@
 <?php
+
+// Register Custom Navigation Walker
+require_once('inc/wp_bootstrap_navwalker.php');
+
 /* enqueue styles and scripts */
 function load_script_css() {
   wp_register_style('googleFonts', 'https://fonts.googleapis.com/css?family=Poiret+One');
@@ -24,5 +28,12 @@ function load_script_css() {
 }
 
 add_action( 'wp_enqueue_scripts' , 'load_script_css' );
+
+add_action( 'after_setup_theme', 'wpt_setup' );
+    if ( ! function_exists( 'wpt_setup' ) ):
+        function wpt_setup() {  
+            register_nav_menu( 'primary', __( 'Primary navigation', 'wptuts' ) );
+        } endif;
+
 ?>
 

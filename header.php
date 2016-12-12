@@ -9,10 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Studio X</title>
-
+    <title><?= get_the_title(); ?> | <?= bloginfo('description'); ?></title>
     <?php wp_head(); ?>
-
     <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,6 +20,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style type = "text/css">
+        <?php if(has_post_thumbnail()): ?>
+            .sample1{
+                background: url('<?= the_post_thumbnail_url(); ?>') no-repeat center center scroll;
+            }
+        <?php endif; ?>
+    </style>
+    
   </head>
 
 <body id="page-top" class="index site">

@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: subpage
-*/
-?>
-
 <?php get_header(); ?>
 
     <section id="page1">
@@ -11,7 +5,7 @@ Template Name: subpage
       <div class="sample1">
         <div class="container">
           <div class="col-sm-12">
-            <h2 class="text-center sample-heading"><?php bloginfo( 'name' ); ?></h2>
+            <h2 class="text-center sample-heading"><?php the_field('page_title'); ?></h2>
           </div>
         </div>
       </div>

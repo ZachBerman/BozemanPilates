@@ -26,8 +26,8 @@
               </a>
             </span>
             <h4 class="service-heading">Studio Hours</h4>
-            <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-              <a href="#" class="btn btn-services">Something here...</a>
+            <p class="text-main"><?php the_field('service_left_column'); ?></p>
+              <a href=<?php the_field('left_button'); ?> class="btn btn-services"><?php the_field('left_button'); ?></a>
           </div>
           <div class="col-md-4 service-block">
             <span class="fa-stack fa-4x">
@@ -37,8 +37,8 @@
               </a>
             </span>
             <h4 class="service-heading">Our Classes</h4>
-            <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            <a href="#" class="btn btn-services">Something here...</a>
+            <p class="text-main"><?php the_field('service_center_column'); ?></p>
+            <a href="#" class="btn btn-services"><?php the_field('center_button'); ?></a>
           </div>
           <div class="col-md-4 service-block">
             <span class="fa-stack fa-4x">
@@ -48,8 +48,8 @@
               </a>
             </span>
             <h4 class="service-heading">Meet Vanessa</h4>
-            <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            <a href="#" class="btn btn-services">Something here...</a>
+            <p class="text-main"><?php the_field('service_right_column'); ?></p>
+            <a href="#" class="btn btn-services"><?php the_field('right_button'); ?></a>
           </div>
         </div>
       </div>

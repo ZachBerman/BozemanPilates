@@ -82,20 +82,8 @@
     <section id="instagram">
 
       <div class="row">
-        <div class="text-center">
-          <h2 class="insta-header">Check us out on Instagram!</h2>
-        </div>
-        <div class = "col-md-3 text-center">
-          <img class = "img-responsive center-block" src ="<?= get_template_directory_uri(); ?>/img/pilates-insta-photo.jpg" />
-        </div>
-        <div class = "col-md-3">
-          <img class = "img-responsive center-block" src = "<?= get_template_directory_uri(); ?>/img/pilates-insta-photo.jpg" />
-        </div>
-        <div class = "col-md-3">
-          <img class = "img-responsive center-block" src = "<?= get_template_directory_uri(); ?>/img/pilates-insta-photo.jpg" />
-        </div>
-        <div class = "col-md-3">
-          <img class = "img-responsive center-block" src = "<?= get_template_directory_uri(); ?>/img/pilates-insta-photo.jpg" />
+        <div class="col-sm-12" style="padding-bottom: 20px;">
+          <?= do_shortcode("[instagram-feed]"); ?>
         </div>
       </div>
 

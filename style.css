@@ -289,7 +289,7 @@ header .intro-text .intro-heading {
   margin-bottom: 25px;
 }
 section {
-  padding: 75px 0;
+  padding: 25px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -309,16 +309,6 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-}
-#instagram {
-  background-color: #0099CC;
-  padding: 50px 0;
-  margin:0;
-}
-.insta-header {
-  color: #fff;
-  /* margin-top: -80px; */
-  margin:0 0 10px 0;
 }
 footer {
   padding: 25px 0;
@@ -404,7 +394,6 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-top: -25px;
 }
 .sample-heading {
   color: black;
@@ -415,12 +404,11 @@ body {
 
 /*Media Queries*/
 @media (max-width: 768px) {
-  .insta-header {
-    padding-top: 10px;
-    font-size: 16px;
-  }
   .service-block {
     margin-top: 75px;
+  }
+    .sample1 {
+      margin-top: -25px;
   }
 }
 @media (min-width: 768px) {
@@ -466,6 +454,6 @@ body {
     margin-bottom: 50px;
   }
   section {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }

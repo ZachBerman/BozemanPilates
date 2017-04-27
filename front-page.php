@@ -7,7 +7,7 @@
           <div class="intro-text">
             <div class="intro-heading"><?php bloginfo( 'name' ); ?></div>
             <div class="intro-lead-in"><?php bloginfo( 'description' ); ?></div>
-            <a href="#" class="page-scroll btn btn-xl">Class Schedule</a>
+            <a href="/scheduling-events/" class="page-scroll btn btn-xl">Class Schedule</a>
           </div>
         </div>
 

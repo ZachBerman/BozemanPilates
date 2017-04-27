@@ -58,12 +58,6 @@
 
     <!-- Mission Section -->
     <section id="mission">
-
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading">Mission Statement</h2>
-        </div>
-      </div>
       <div class="row">
         <div class="col-sm-offset-1 col-sm-10 text-center">
         <p class="text-main"><?php

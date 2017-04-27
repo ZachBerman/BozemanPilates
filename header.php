@@ -42,7 +42,7 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
           </button>
-          <a class="navbar-brand" href="<?php bloginfo('url')?>"><?php bloginfo('name')?></a>
+          <a class="navbar-brand" href="<?php bloginfo('url')?>"><img src="<?= get_template_directory_uri(); ?>/img/lp-logo-small.png" /></a>
         </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->

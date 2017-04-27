@@ -217,6 +217,10 @@ fieldset[disabled] .btn-services.active {
 .navbar-custom .navbar-brand.active {
   color: #FC6A42;
 }
+.navbar-brand{
+  line-height:auto;
+  height:auto;
+}
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }

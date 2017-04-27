@@ -13,12 +13,12 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
             <br>
-              <li><a href="#"><i class="fa fa-instagram"></i></a>
+              <li><a href="https://www.instagram.com/ltownpilates/"><i class="fa fa-instagram"></i></a>
               </li>
               <li><a href="#"><i class="fa fa-facebook"></i></a>
               </li>
               <br>
-              <span class="copyright">Copyright &copy; Studio X</span>
+              <span class="copyright">Copyright &copy; Livingston Pilates</span>
             </ul>
           </div>
           <div class="col-md-4">

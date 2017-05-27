@@ -6,8 +6,7 @@
         <div class="container">
           <div class="intro-text">
             <div class="intro-heading"><?php bloginfo( 'name' ); ?></div>
-            <div class="intro-lead-in"><?php bloginfo( 'description' ); ?></div>
-            <a href="/scheduling-events/" class="page-scroll btn btn-xl">Class Schedule</a>
+            <a href="<?= the_field("hero_button_link"); ?>" class="page-scroll btn btn-xl"><?= the_field("hero_button_text"); ?></a>
           </div>
         </div>
 
